@@ -4,9 +4,10 @@
 - - -
 
 ## Prerequisites
-  * Create a directory for plugin:
+  * Create directories for plugin:
     ```
-    $ sudo mkdir /var/lib/docker-volumes/netshare
+    $ sudo mkdir -p /run/docker/plugins
+    $ sudo mkdir -p /var/lib/docker-volumes/netshare
     ```
 
   * Mount as a rshared directory:
